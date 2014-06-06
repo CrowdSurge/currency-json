@@ -8,7 +8,7 @@
             "default": "Dhs",
             "native": "د.إ",
             "hex": null,
-            "decimal" null
+            "decimal": null
         },
         "units": {
             "decimal": 2,
