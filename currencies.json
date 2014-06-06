@@ -1,0 +1,162 @@
+{
+    "AED": {
+        "name": "Emirati Dirham",
+        "iso": "AED",
+        "isoNumeric": 784,
+        "format": "-###,###,###.## Dhs",
+        "symbol": {
+            "default": "Dhs",
+            "native": "د.إ",
+            "hex": null,
+            "decimal" null
+        },
+        "units": {
+            "decimal": 2,
+            "sub": 100,
+            "name": {
+                "major": "Dirham",
+                "minor": "Fil"
+            }
+        }
+    },
+    "AUD": {
+        "name": "Australian Dollar",
+        "iso": "AUD",
+        "isoNumeric": 36,
+        "format": "-AU$###,###,###.##",
+        "symbol": {
+            "default": "AU$",
+            "native": "$",
+            "hex": "0024",
+            "decimal": 36
+        },
+        "units": {
+            "decimal": 2,
+            "sub": 100,
+            "name": {
+                "major": "Dollar",
+                "minor": "Cent"
+            }
+        }
+    },
+    "BRL": {
+        "name": "Brazilian Real",
+        "iso": "BRL",
+        "isoNumeric": 986,
+        "format": "-R$###.###.###,##",
+        "symbol": {
+            "default": "R$",
+            "native": "R$",
+            "hex": null,
+            "decimal": null
+        },
+        "units": {
+            "decimal": 2,
+            "sub": 100,
+            "name": {
+                "major": "Real",
+                "minor": "Centavo"
+            }
+        }
+    },
+    "DKK": {
+        "name": "Danish Krone",
+        "iso": "DKK",
+        "isoNumeric": 208,
+        "format": "kr -###.###.###,##",
+        "symbol": {
+            "default": "kr",
+            "native": "kr",
+            "hex": null,
+            "decimal": null
+        },
+        "units": {
+            "decimal": 2,
+            "sub": 100,
+            "name": {
+                "major": "Krone",
+                "minor": "Øre"
+            }
+        }
+    },
+    "EUR": {
+        "name": "Euro",
+        "iso": "EUR",
+        "isoNumeric": 978,
+        "format": "-€###.###.###,##",
+        "symbol": {
+            "default": "€",
+            "native": "€",
+            "hex": "20AC",
+            "decimal": 8364
+        },
+        "units": {
+            "decimal": 2,
+            "sub": 100,
+            "name": {
+                "major": "Euro",
+                "minor": "Cent"
+            }
+        }
+    },
+    "GBP": {
+        "name": "Pound Sterling",
+        "iso": "GBP",
+        "isoNumeric": 826,
+        "format": "-£###,###,###.##",
+        "symbol": {
+            "default": "£",
+            "native": "£",
+            "hex": "00A3",
+            "decimal": 163
+        },
+        "units": {
+            "decimal": 2,
+            "sub": 100,
+            "name": {
+                "major": "Pound",
+                "minor": "Pence"
+            }
+        }
+    },
+    "JPY": {
+        "name": "Japanese Yen",
+        "iso": "JPY",
+        "isoNumeric": 392,
+        "format": "-###,###,###円",
+        "symbol": {
+            "default": "¥",
+            "native": "円",
+            "hex": "5186",
+            "decimal": 20870
+        },
+        "units": {
+            "decimal": 0,
+            "sub": 0,
+            "name": {
+                "major": "Yen",
+                "minor": null
+            }
+        }
+    },
+    "USD": {
+        "name": "US Dollar",
+        "iso": "USD",
+        "isoNumeric": 840,
+        "format": "-$###,###,###.##",
+        "symbol": {
+            "default": "$",
+            "native": "$",
+            "hex": "0024",
+            "decimal": 36
+        },
+        "units": {
+            "decimal": 2,
+            "sub": 100,
+            "name": {
+                "major": "Dollar",
+                "minor": "Cent"
+            }
+        }
+    }
+}
