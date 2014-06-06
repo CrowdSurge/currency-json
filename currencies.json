@@ -1,9 +1,10 @@
 {
     "AED": {
         "name": "Emirati Dirham",
-        "iso": "AED",
-        "isoNumeric": 784,
-        "format": "-###,###,###.## Dhs",
+        "iso": {
+            "code": "AED",
+            "num": 784
+        },
         "symbol": {
             "default": {
                 "display": "Dhs",
@@ -21,13 +22,38 @@
                 "major": "Dirham",
                 "minor": "Fil"
             }
-        }
+        },
+        "format": "-###,###,###.## Dhs"
+    },
+    "AFN": {
+        "name": "Afghan Afghani",
+        "iso": {
+            "code": "AFN",
+            "num": 971
+        },
+        "symbol": {
+            "default": {
+                "display": "؋",
+                "code": "&#x60b;"
+            },
+            "native": null
+        },
+        "units": {
+            "decimal": 2,
+            "sub": 100,
+            "name": {
+                "major": "Afghani",
+                "minor": "Pul"
+            }
+        },
+        "format": "-###,###,###.##"
     },
     "AUD": {
         "name": "Australian Dollar",
-        "iso": "AUD",
-        "isoNumeric": 36,
-        "format": "-AU$###,###,###.##",
+        "iso": {
+            "code": "AUD",
+            "num": 036
+        },
         "symbol": {
             "default": {
                 "display": "AU$",
@@ -45,13 +71,15 @@
                 "major": "Dollar",
                 "minor": "Cent"
             }
-        }
+        },
+        "format": "-AU$###,###,###.##"
     },
     "BRL": {
         "name": "Brazilian Real",
-        "iso": "BRL",
-        "isoNumeric": 986,
-        "format": "-R$###.###.###,##",
+        "iso": {
+            "code": "BRL",
+            "num": 986
+        },
         "symbol": {
             "default": {
                 "display": "R$",
@@ -66,13 +94,15 @@
                 "major": "Real",
                 "minor": "Centavo"
             }
-        }
+        },
+        "format": "-R$###.###.###,##"
     },
     "DKK": {
         "name": "Danish Krone",
-        "iso": "DKK",
-        "isoNumeric": 208,
-        "format": "kr -###.###.###,##",
+        "iso": {
+            "code": "DKK",
+            "num": 208
+        },
         "symbol": {
             "default": {
                 "display": "kr",
@@ -87,13 +117,15 @@
                 "major": "Krone",
                 "minor": "Øre"
             }
-        }
+        },
+        "format": "kr -###.###.###,##"
     },
     "EUR": {
         "name": "Euro",
-        "iso": "EUR",
-        "isoNumeric": 978,
-        "format": "-€###.###.###,##",
+        "iso": {
+            "code": "EUR",
+            "num": 978
+        },
         "symbol": {
             "default": {
                 "display": "€",
@@ -108,13 +140,15 @@
                 "major": "Euro",
                 "minor": "Cent"
             }
-        }
+        },
+        "format": "-€###.###.###,##"
     },
     "GBP": {
         "name": "Pound Sterling",
-        "iso": "GBP",
-        "isoNumeric": 826,
-        "format": "-£###,###,###.##",
+        "iso": {
+            "code": "GBP",
+            "num": 826
+        },
         "symbol": {
             "default": {
                 "display": "£",
@@ -129,13 +163,15 @@
                 "major": "Pound",
                 "minor": "Pence"
             }
-        }
+        },
+        "format": "-£###,###,###.##"
     },
     "JPY": {
         "name": "Japanese Yen",
-        "iso": "JPY",
-        "isoNumeric": 392,
-        "format": "-###,###,###円",
+        "iso": {
+            "code": "JPY",
+            "num": 392
+        },
         "symbol": {
             "default": {
                 "display": "¥",
@@ -153,13 +189,15 @@
                 "major": "Yen",
                 "minor": null
             }
-        }
+        },
+        "format": "-###,###,###円"
     },
     "USD": {
         "name": "US Dollar",
-        "iso": "USD",
-        "isoNumeric": 840,
-        "format": "-$###,###,###.##",
+        "iso": {
+            "code": "USD",
+            "num": 840
+        },
         "symbol": {
             "default": {
                 "display": "$",
@@ -174,6 +212,7 @@
                 "major": "Dollar",
                 "minor": "Cent"
             }
-        }
+        },
+        "format": "-$###,###,###.##"
     }
 }

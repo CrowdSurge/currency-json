@@ -8,9 +8,10 @@ A JSON List of Currency Formats &amp; Information
 ```javascript
 "JPY": {
     "name": "Japanese Yen",
-    "iso": "JPY",
-    "isoNumeric": 392,
-    "format": "-###,###,###円",
+    "iso": {
+        "code": "JPY",
+        "num": 392
+    }
     "symbol": {
         "default": {
             "display": "¥",
@@ -28,7 +29,8 @@ A JSON List of Currency Formats &amp; Information
             "major": "Yen",
             "minor": null
         }
-    }
+    },
+    "format": "-###,###,###円"
 }
 ```
 
@@ -36,10 +38,10 @@ A JSON List of Currency Formats &amp; Information
 The name of the currency
 
 #### ```iso```
-The three-digit ISO-4217 Currency code
+The three-letter ISO-4217 currency code
 
 #### ```isoNumeric```
-The ISO-3166-1 numeric country code for the parent country of the currency (eg. US Dollar = 840, for USA)
+The three-digit ISO-4217 numeric currency code
 
 #### ```format```
 A DecimalFormat style string for displaying positive and negative currency amounts, with symbols (see below for a gist that works with these)
