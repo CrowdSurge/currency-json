@@ -74,12 +74,6 @@
         "isoNumeric": 208,
         "format": "kr -###.###.###,##",
         "symbol": {
-            "default": "kr",
-            "native": "kr",
-            "hex": null,
-            "decimal": null
-        },
-        "symbol": {
             "default": {
                 "display": "kr",
                 "code": "kr"
