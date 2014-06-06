@@ -37,14 +37,11 @@ A JSON List of Currency Formats &amp; Information
 #### ```name```
 The name of the currency
 
-#### ```iso```
+#### ```iso.code```
 The three-letter ISO-4217 currency code
 
-#### ```isoNumeric```
+#### ```iso.num```
 The three-digit ISO-4217 numeric currency code
-
-#### ```format```
-A DecimalFormat style string for displaying positive and negative currency amounts, with symbols (see below for a gist that works with these)
 
 #### ```symbol.default.display```
 The default symbol, used globally, for this currency
@@ -72,6 +69,9 @@ The name for the major unit. eg. GBP: Pound
 
 #### ```units.name.minor```
 The name for the minor unit eg. GBP: Pence
+
+#### ```format```
+A DecimalFormat style string for displaying positive and negative currency amounts, with symbols (see below for a gist that works with these)
 
 
 ## Formatting String
