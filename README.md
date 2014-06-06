@@ -6,23 +6,27 @@ A JSON List of Currency Formats &amp; Information
 ## What It Contains
 
 ```javascript
-"GBP": {
-    "name": "Pound Sterling",
-    "iso": "GBP",
-    "isoNumeric": 826,
-    "format": "-£###,###,###.##",
+"JPY": {
+    "name": "Japanese Yen",
+    "iso": "JPY",
+    "isoNumeric": 392,
+    "format": "-###,###,###円",
     "symbol": {
-        "default": "£",
-        "native": "£",
-        "hex": "00A3",
-        "decimal": 163
+        "default": {
+            "display": "¥",
+            "code": "&#xa5;"
+        },
+        "native": {
+            "display": "円",
+            "code": "&#x5186;"
+        }
     },
     "units": {
-        "decimal": 2,
-        "sub": 100,
+        "decimal": 0,
+        "sub": 0,
         "name": {
-            "major": "Pound",
-            "minor": "Pence"
+            "major": "Yen",
+            "minor": null
         }
     }
 }
@@ -40,17 +44,20 @@ The ISO-3166-1 numeric country code for the parent country of the currency (eg. 
 #### ```format```
 A DecimalFormat style string for displaying positive and negative currency amounts, with symbols (see below for a gist that works with these)
 
-#### ```symbol.default```
+#### ```symbol.default.display```
 The default symbol, used globally, for this currency
 
+#### ```symbol.default.code```
+HTML Hex value for this symbol
+
 #### ```symbol.native```
-The native symbol, used in the local territory, for the currency
+If a currency is displayed differently natively (eg. A different symbol for Yen is commonly used in Japan), an object will be returned. Otherwise ```null```
 
-#### ```symbol.hex```
-Hex value (if available) for the native symbol
+#### ```symbol.native.display```
+The native display symbol, used in local territories, for this currency
 
-#### ```symbol.decimal```
-Decimal value (if available) for the native symbol
+#### ```symbol.native.code```
+HTML Hex value for this symbol
 
 #### ```units.decimal```
 Number of decimal units used in the currency
@@ -70,7 +77,7 @@ The ```format``` value can be used to display the currency in a format familiar 
 
 The location of negative value indicators also changes dependent on currency.
 
-The following gist will format a number using the format string supplied in the JSON: 
+The following gist will format a number using the format string supplied in the JSON:
 https://gist.github.com/benhodgson87/becf5884a53d90f86b6e
 
 

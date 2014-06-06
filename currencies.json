@@ -5,10 +5,14 @@
         "isoNumeric": 784,
         "format": "-###,###,###.## Dhs",
         "symbol": {
-            "default": "Dhs",
-            "native": "د.إ",
-            "hex": null,
-            "decimal": null
+            "default": {
+                "display": "Dhs",
+                "code": "Dhs"
+            },
+            "native": {
+                "display": "د.إ",
+                "code": "&#x62f;.&#x625;"
+            }
         },
         "units": {
             "decimal": 2,
@@ -25,10 +29,14 @@
         "isoNumeric": 36,
         "format": "-AU$###,###,###.##",
         "symbol": {
-            "default": "AU$",
-            "native": "$",
-            "hex": "0024",
-            "decimal": 36
+            "default": {
+                "display": "AU$",
+                "code": "AU&#x24;"
+            },
+            "native": {
+                "display": "$",
+                "code": "$"
+            }
         },
         "units": {
             "decimal": 2,
@@ -45,10 +53,11 @@
         "isoNumeric": 986,
         "format": "-R$###.###.###,##",
         "symbol": {
-            "default": "R$",
-            "native": "R$",
-            "hex": null,
-            "decimal": null
+            "default": {
+                "display": "R$",
+                "code": "R&#x24;"
+            },
+            "native": null
         },
         "units": {
             "decimal": 2,
@@ -70,6 +79,13 @@
             "hex": null,
             "decimal": null
         },
+        "symbol": {
+            "default": {
+                "display": "kr",
+                "code": "kr"
+            },
+            "native": null
+        },
         "units": {
             "decimal": 2,
             "sub": 100,
@@ -85,10 +101,11 @@
         "isoNumeric": 978,
         "format": "-€###.###.###,##",
         "symbol": {
-            "default": "€",
-            "native": "€",
-            "hex": "20AC",
-            "decimal": 8364
+            "default": {
+                "display": "€",
+                "code": "&#x20ac;"
+            },
+            "native": null
         },
         "units": {
             "decimal": 2,
@@ -105,10 +122,11 @@
         "isoNumeric": 826,
         "format": "-£###,###,###.##",
         "symbol": {
-            "default": "£",
-            "native": "£",
-            "hex": "00A3",
-            "decimal": 163
+            "default": {
+                "display": "£",
+                "code": "&#xa3;"
+            },
+            "native": null
         },
         "units": {
             "decimal": 2,
@@ -125,10 +143,14 @@
         "isoNumeric": 392,
         "format": "-###,###,###円",
         "symbol": {
-            "default": "¥",
-            "native": "円",
-            "hex": "5186",
-            "decimal": 20870
+            "default": {
+                "display": "¥",
+                "code": "&#xa5;"
+            },
+            "native": {
+                "display": "円",
+                "code": "&#x5186;"
+            }
         },
         "units": {
             "decimal": 0,
@@ -145,10 +167,11 @@
         "isoNumeric": 840,
         "format": "-$###,###,###.##",
         "symbol": {
-            "default": "$",
-            "native": "$",
-            "hex": "0024",
-            "decimal": 36
+            "default": {
+                "display": "$",
+                "code": "&#x24;"
+            },
+            "native": null
         },
         "units": {
             "decimal": 2,
