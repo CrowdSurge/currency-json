@@ -238,6 +238,32 @@
         },
         "format": "man. -$###.###.###,##"
     },
+    "CAD": {
+        "name": "Canadian Dollar",
+        "iso": {
+            "code": "CAD",
+            "num": "124"
+        },
+        "symbol": {
+            "default": {
+                "display": "CA$",
+                "code": "CA&#x24;"
+            },
+            "native": {
+                "display": "$",
+                "code": "&#x24;"
+            }
+        },
+        "units": {
+            "decimal": 2,
+            "sub": 100,
+            "name": {
+                "major": "Dollar",
+                "minor": "Cent"
+            }
+        },
+        "format": "-CA$###,###,###.##"
+    },
     "DKK": {
         "name": "Danish Krone",
         "iso": {
