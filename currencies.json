@@ -264,6 +264,32 @@
         },
         "format": "-CA$###,###,###.##"
     },
+    "CNY": {
+        "name": "Chinese Yuan",
+        "iso": {
+            "code": "CNY",
+            "num": "156"
+        },
+        "symbol": {
+            "default": {
+                "display": "¥",
+                "code": "&#xa5;"
+            },
+            "native": {
+                "display": "元",
+                "code": "&#x5143;"
+            }
+        },
+        "units": {
+            "decimal": 2,
+            "sub": 100,
+            "name": {
+                "major": "Yuan",
+                "minor": "Fen"
+            }
+        },
+        "format": "-¥###,###,###.##"
+    },
     "DKK": {
         "name": "Danish Krone",
         "iso": {
